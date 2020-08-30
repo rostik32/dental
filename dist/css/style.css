@@ -1771,6 +1771,7 @@ body.lock {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
+    overflow-y: scroll;
   }
 
   .header-main__second-logo {
@@ -2009,7 +2010,6 @@ body.lock {
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 100px;
-    overflow: scroll;
   }
 
   .header-main__navigation-item:not(:last-child) {
