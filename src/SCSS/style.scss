@@ -1,0 +1,70 @@
+@import "normalize.scss";
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-xl {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+// MAIN TITLE
+
+.section-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #272727;
+  margin: 0;
+  position: relative;
+  padding-top: 16px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #ffd600;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    position: absolute;
+    content: ":D :P";
+    width: 275px;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 152px;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+
+
+
+@import "header.scss";
+@import "welcome.scss";
+@import "services.scss";
+@import "technology.scss";
+@import "team.scss";
+@import "quality.scss";
+@import "reviews.scss";
+@import "location.scss";
+@import "footer.scss";
